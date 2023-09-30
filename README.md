@@ -35,7 +35,7 @@ For my data analysis, I followed the following steps:
 11. Maximum number of people like shorter podcasts and rate 'ok' for the variety and availabilty of podcasts
 
 
-#### ***Recommendations** 
+#### **Recommendations** 
 
 1. Look further into what factor has the strongest correlation to the good retention rate (point 2)
 2. Potentially collaborate with any smart speaker or voice assitant device company, to enhance the connectability (point 3)
