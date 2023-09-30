@@ -21,7 +21,7 @@ For my data analysis, I followed the following steps:
 
 ### **Results**
 
-#### ***Insights** 
+#### **Insights** 
 1. Maximum number of the users are of the age range 20-35 and are females
 2. Most users have been users for more than 2 year and is predominant females age 20-35
 3. Smart Speakers and Voice Assistants are the most used devices and wearable devices are the least used devices
@@ -45,5 +45,3 @@ For my data analysis, I followed the following steps:
 
 
 
-***Recommendation**
-1. 
