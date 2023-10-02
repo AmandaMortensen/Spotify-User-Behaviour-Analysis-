@@ -45,7 +45,7 @@ For my data analysis, I followed the following steps:
 
 ### **Code Preview** 
 
-Importing data 
+Importing Data 
 
 ```
 
@@ -60,13 +60,13 @@ from PIL import Image
 from wordcloud import WordCloud
 from nltk.corpus import stopwords 
 ```
-Load data
+Load Data
 
 ```
 df = pd.read_csv('/Users/amandamortensen/Desktop/Data Analytics/Python Projects/Project 3 /Spotify_data.csv')```
 ```
 
-Spotify User Analysis - distribution of spotify users by age (bar chart)
+Spotify User Analysis - Distribution of Spotify Users by Age (bar chart)
 
 ```
 df['Age'].unique()
@@ -81,7 +81,7 @@ plt.xlabel('Age')
 plt.ylabel('Count')
 ```
 
-Spotify User Analysis - distribution of Spotify users by gender (pie chart)
+Spotify User Analysis - Distribution of Spotify Users by Gender (pie chart)
 
 ```
 df['Gender'].unique()
