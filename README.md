@@ -43,5 +43,67 @@ For my data analysis, I followed the following steps:
 4. Improve variety and availabiity of podcats, ideally within the comedy area (point 11) 
    
 
+### **Code Preview** 
+
+Importing data 
+
+```
+
+import numpy as np
+import pandas as pd
+from matplotlib import pyplot as plt 
+import seaborn as sns
+plt.style.use('ggplot')
+import matplotlib.pyplot as plt 
+
+from PIL import Image
+from wordcloud import WordCloud
+from nltk.corpus import stopwords 
+```
+Load data
+
+```
+df = pd.read_csv('/Users/amandamortensen/Desktop/Data Analytics/Python Projects/Project 3 /Spotify_data.csv')```
+```
+
+Spotify User Analysis - distribution of spotify users by age (bar chart)
+
+```
+df['Age'].unique()
+
+```
+
+```
+plt.hist(df.Age, color='Green')
+plt.show 
+plt.title('Disitribution of Spotify Users by Age')
+plt.xlabel('Age')
+plt.ylabel('Count')
+```
+
+Spotify User Analysis - distribution of Spotify users by gender (pie chart)
+
+```
+df['Gender'].unique()
+```
+
+```
+x = df['Gender'].value_counts()
+plt.pie(x,autopct= '%1.1f%%')
+plt.show 
+labels = ['female', 'male', 'others']
+plt.legend(labels)
+plt.show
+plt.title('Distribution of Spotify Users by Gender')
+```
+
+Spotify User Experience Analysis - Music Recommendation Ratings (violin plot)
+
+```
+sns.violinplot(x=df["music_recc_rating"])
+plt.xlabel('Count')
+plt.ylabel('Ratings')
+plt.title('Distrubution of how Users Rate the Spotify Music Recommendations')
+```
 
 
